@@ -1,0 +1,46 @@
+
+
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  min-height: 100vh;
+  background: url("./images/bg2.jpg") no-repeat center / cover;
+}
+.hamburger {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 20px;
+  height: 3px;
+  display: block;
+  background-color: black;
+  margin-top: 5px;
+}
+.hamburger_content {
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  width: 200px;
+  background-color: royalblue;
+  z-index: 100;
+  text-align: center;
+}
+
+.hamburger_content ul li {
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+.hamburger_content ul li:last-child {
+  border-bottom: none;
+}
+.hamburger_content ul li a {
+  color: white;
+}
+.hamburger_content ul {
+  margin: 0;
+}
