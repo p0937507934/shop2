@@ -21,7 +21,7 @@ const RegisterScreen = ({ location, history }) => {
         name,email,password
       })
       alert("註冊成功")
-      history.push("/")
+      history.push("/login")
     }
   };
   return (
